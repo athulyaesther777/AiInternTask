@@ -6,16 +6,16 @@ ERROR:root:Error processing pdf15.pdf: Exception encountered when calling layer 
 {{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} OOM when allocating tensor with shape[1,8,7439,64] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator mklcpu [Op:Transpose]
 
 Call arguments received by layer 'SelfAttention' (type TFT5Attention):
-  • hidden_states=tf.Tensor(shape=(1, 7439, 512), dtype=float32)
-  • mask=tf.Tensor(shape=(1, 1, 1, 7439), dtype=float32)
-  • key_value_states=None
-  • position_bias=None
-  • past_key_value=None
-  • layer_head_mask=None
-  • query_length=None
-  • use_cache=False
-  • training=False
-  • output_attentions=False
+  â€¢ hidden_states=tf.Tensor(shape=(1, 7439, 512), dtype=float32)
+  â€¢ mask=tf.Tensor(shape=(1, 1, 1, 7439), dtype=float32)
+  â€¢ key_value_states=None
+  â€¢ position_bias=None
+  â€¢ past_key_value=None
+  â€¢ layer_head_mask=None
+  â€¢ query_length=None
+  â€¢ use_cache=False
+  â€¢ training=False
+  â€¢ output_attentions=False
 ERROR:root:Error processing pdf2.pdf: Could not load model google-t5/t5-small with any of the following classes: (<class 'transformers.models.auto.modeling_tf_auto.TFAutoModelForSeq2SeqLM'>, <class 'transformers.models.t5.modeling_tf_t5.TFT5ForConditionalGeneration'>). See the original errors:
 
 while loading with TFAutoModelForSeq2SeqLM, an error is thrown:
