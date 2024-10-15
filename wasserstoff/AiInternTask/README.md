@@ -34,3 +34,4 @@ AiInternTask/
 ??? Dockerfile                 # Docker setup file (Optional)
 ??? README.md                  # Project documentation
 ??? requirements.txt           # List of required packages
+??? performance_report.py      # Evaluating the time and data
