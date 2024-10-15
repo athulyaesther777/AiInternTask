@@ -35,3 +35,24 @@ AiInternTask/
 ??? README.md                  # Project documentation
 ??? requirements.txt           # List of required packages
 ??? performance_report.py      # Evaluating the time and data
+
+
+Ensure you have the following installed:
+
+- Python 3.7 or higher
+- MongoDB (for storing data)
+- [Vercel](https://vercel.com) or other hosting platforms for public hosting (Optional)
+
+### Python Libraries
+
+Install the required Python packages using:
+
+```bash
+pip install -r requirements.txt
+
+```bash
+python -m unittest discover tests  # This will run both test_keyword_extraction.py and 
+                                    test_summarization.py under the tests/ folder to validate 
+                                    keyword extraction and summarization functionality.
+
+
