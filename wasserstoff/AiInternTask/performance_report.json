@@ -1,0 +1,138 @@
+[
+    {
+        "document": "pdf10.pdf",
+        "extraction_time": 0.4107673168182373,
+        "summary_time": 11.904599905014038,
+        "keyword_extraction_time": 5.435644149780273,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1285013504
+    },
+    {
+        "document": "pdf1.pdf",
+        "extraction_time": 0.2023007869720459,
+        "summary_time": 13.387014627456665,
+        "keyword_extraction_time": 5.617196321487427,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1284907008
+    },
+    {
+        "document": "pdf12.pdf",
+        "extraction_time": 0.0,
+        "summary_time": 0.0,
+        "keyword_extraction_time": 0.0,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1284571136
+    },
+    {
+        "document": "pdf11.pdf",
+        "extraction_time": 0.14719557762145996,
+        "summary_time": 9.679305076599121,
+        "keyword_extraction_time": 6.03517484664917,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1344983040
+    },
+    {
+        "document": "pdf14.pdf",
+        "extraction_time": 0.21185851097106934,
+        "summary_time": 16.575941562652588,
+        "keyword_extraction_time": 4.017754554748535,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1565032448
+    },
+    {
+        "document": "pdf13.pdf",
+        "extraction_time": 0.2281501293182373,
+        "summary_time": 16.526304006576538,
+        "keyword_extraction_time": 4.107601881027222,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1565032448
+    },
+    {
+        "document": "pdf16.pdf",
+        "extraction_time": 0.2458949089050293,
+        "summary_time": 15.762455224990845,
+        "keyword_extraction_time": 5.086177587509155,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1530896384
+    },
+    {
+        "document": "pdf15.pdf",
+        "extraction_time": 0.39797377586364746,
+        "summary_time": 19.293257236480713,
+        "keyword_extraction_time": 4.4712982177734375,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1513459712
+    },
+    {
+        "document": "pdf2.pdf",
+        "extraction_time": 1.434948205947876,
+        "summary_time": 16.587536334991455,
+        "keyword_extraction_time": 4.470318078994751,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1318879232
+    },
+    {
+        "document": "pdf18.pdf",
+        "extraction_time": 0.2788412570953369,
+        "summary_time": 20.09913206100464,
+        "keyword_extraction_time": 4.018471717834473,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1318748160
+    },
+    {
+        "document": "pdf4.pdf",
+        "extraction_time": 1.2108392715454102,
+        "summary_time": 18.71841859817505,
+        "keyword_extraction_time": 4.289399147033691,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1419550720
+    },
+    {
+        "document": "pdf3.pdf",
+        "extraction_time": 2.3914825916290283,
+        "summary_time": 22.000892162322998,
+        "keyword_extraction_time": 5.324617624282837,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1419411456
+    },
+    {
+        "document": "pdf5.pdf",
+        "extraction_time": 0.05117940902709961,
+        "summary_time": 10.714786767959595,
+        "keyword_extraction_time": 5.320574760437012,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1286918144
+    },
+    {
+        "document": "pdf6.pdf",
+        "extraction_time": 0.19739818572998047,
+        "summary_time": 16.17936944961548,
+        "keyword_extraction_time": 4.655757665634155,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1286774784
+    },
+    {
+        "document": "pdf7.pdf",
+        "extraction_time": 0.18977689743041992,
+        "summary_time": 16.656779766082764,
+        "keyword_extraction_time": 4.924765348434448,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1102114816
+    },
+    {
+        "document": "pdf8.pdf",
+        "extraction_time": 0.20492291450500488,
+        "summary_time": 19.02224063873291,
+        "keyword_extraction_time": 3.723721504211426,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1101975552
+    },
+    {
+        "document": "pdf9.pdf",
+        "extraction_time": 0.11087679862976074,
+        "summary_time": 11.952566385269165,
+        "keyword_extraction_time": 4.494956016540527,
+        "mongodb_insertion_time": 0.0,
+        "memory_usage": 1102073856
+    }
+]
