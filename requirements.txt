@@ -1,0 +1,7 @@
+pymongo
+PyPDF2
+nltk
+scikit-learn
+numpy
+pdfplumber
+transformers
