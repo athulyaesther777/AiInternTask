@@ -1,0 +1,741 @@
+ERROR:root:Error processing C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf12.pdf: No /Root object! - Is this really a PDF?
+ERROR:root:Error processing C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf12.pdf: No /Root object! - Is this really a PDF?
+ERROR:root:Error processing C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf12.pdf: No /Root object! - Is this really a PDF?
+ERROR:root:Error processing pdf15.pdf: Exception encountered when calling layer 'SelfAttention' (type TFT5Attention).
+
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} OOM when allocating tensor with shape[1,8,7439,64] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator mklcpu [Op:Transpose]
+
+Call arguments received by layer 'SelfAttention' (type TFT5Attention):
+  • hidden_states=tf.Tensor(shape=(1, 7439, 512), dtype=float32)
+  • mask=tf.Tensor(shape=(1, 1, 1, 7439), dtype=float32)
+  • key_value_states=None
+  • position_bias=None
+  • past_key_value=None
+  • layer_head_mask=None
+  • query_length=None
+  • use_cache=False
+  • training=False
+  • output_attentions=False
+ERROR:root:Error processing pdf2.pdf: Could not load model google-t5/t5-small with any of the following classes: (<class 'transformers.models.auto.modeling_tf_auto.TFAutoModelForSeq2SeqLM'>, <class 'transformers.models.t5.modeling_tf_t5.TFT5ForConditionalGeneration'>). See the original errors:
+
+while loading with TFAutoModelForSeq2SeqLM, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\transformers\pipelines\base.py", line 288, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\transformers\modeling_tf_utils.py", line 2925, in from_pretrained
+    with safe_open(resolved_archive_file, framework="tf") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Insufficient system resources exist to complete the requested service. (os error 1450)
+
+while loading with TFT5ForConditionalGeneration, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\transformers\pipelines\base.py", line 288, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\transformers\modeling_tf_utils.py", line 2925, in from_pretrained
+    with safe_open(resolved_archive_file, framework="tf") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Insufficient system resources exist to complete the requested service. (os error 1450)
+
+
+
+ERROR:root:Error processing pdf3.pdf: Could not load model google-t5/t5-small with any of the following classes: (<class 'transformers.models.auto.modeling_tf_auto.TFAutoModelForSeq2SeqLM'>, <class 'transformers.models.t5.modeling_tf_t5.TFT5ForConditionalGeneration'>). See the original errors:
+
+while loading with TFAutoModelForSeq2SeqLM, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\transformers\pipelines\base.py", line 288, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\transformers\modeling_tf_utils.py", line 2925, in from_pretrained
+    with safe_open(resolved_archive_file, framework="tf") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Insufficient system resources exist to complete the requested service. (os error 1450)
+
+while loading with TFT5ForConditionalGeneration, an error is thrown:
+Traceback (most recent call last):
+  File "C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\transformers\pipelines\base.py", line 288, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\transformers\modeling_tf_utils.py", line 2925, in from_pretrained
+    with safe_open(resolved_archive_file, framework="tf") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Insufficient system resources exist to complete the requested service. (os error 1450)
+
+
+
+ERROR:root:Error processing C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf12.pdf: No /Root object! - Is this really a PDF?
+ERROR:root:Error processing C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf12.pdf: No /Root object! - Is this really a PDF?
+2024-10-15 15:17:30,009 - INFO - Starting the PDF processing pipeline...
+2024-10-15 15:17:57,739 - INFO - Starting the PDF processing pipeline...
+2024-10-15 20:07:20,536 - INFO - Processing pdf1.pdf (long document with 4184 words)
+2024-10-15 20:07:25,100 - INFO - Processing pdf10.pdf (long document with 21801 words)
+2024-10-15 20:07:51,003 - ERROR - Error processing pdf1.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e1e86ff9c9d3f3f04b3, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:07:51,004 - INFO - Processing time for pdf1.pdf: 32.66 seconds
+2024-10-15 20:07:55,544 - ERROR - Error processing pdf10.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e1e86ff9c9d3f3f04b3, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:07:55,544 - INFO - Processing time for pdf10.pdf: 37.20 seconds
+2024-10-15 20:07:55,653 - ERROR - Error processing pdf12.pdf: EOF marker not found
+2024-10-15 20:07:55,669 - INFO - Processing time for pdf12.pdf: 0.12 seconds
+2024-10-15 20:07:57,558 - INFO - Processing pdf11.pdf (long document with 5575 words)
+2024-10-15 20:08:27,636 - ERROR - Error processing pdf11.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e1e86ff9c9d3f3f04b3, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:08:27,636 - INFO - Processing time for pdf11.pdf: 32.09 seconds
+2024-10-15 20:08:29,638 - INFO - Processing pdf14.pdf (long document with 4014 words)
+2024-10-15 20:08:31,023 - INFO - Processing pdf13.pdf (long document with 4952 words)
+2024-10-15 20:09:00,123 - ERROR - Error processing pdf14.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e1e86ff9c9d3f3f04b3, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:09:00,124 - INFO - Processing time for pdf14.pdf: 32.49 seconds
+2024-10-15 20:09:01,128 - ERROR - Error processing pdf13.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e1e86ff9c9d3f3f04b3, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:09:01,128 - INFO - Processing time for pdf13.pdf: 33.49 seconds
+2024-10-15 20:09:21,113 - WARNING - From C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-15 20:09:23,689 - INFO - Processing pdf1.pdf (long document with 4184 words)
+2024-10-15 20:09:24,281 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:09:24,281 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:09:29,352 - INFO - Processing pdf10.pdf (long document with 21801 words)
+2024-10-15 20:09:29,354 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:09:29,354 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:10:02,951 - ERROR - Error processing pdf1.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:10:02,951 - INFO - Processing time for pdf1.pdf: 41.25 seconds
+2024-10-15 20:10:04,993 - ERROR - Error processing pdf10.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:10:04,994 - INFO - Processing time for pdf10.pdf: 43.29 seconds
+2024-10-15 20:10:05,074 - ERROR - Error processing pdf12.pdf: EOF marker not found
+2024-10-15 20:10:05,088 - INFO - Processing time for pdf12.pdf: 0.09 seconds
+2024-10-15 20:10:07,113 - INFO - Processing pdf11.pdf (long document with 5575 words)
+2024-10-15 20:10:07,116 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:10:07,116 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:10:42,550 - ERROR - Error processing pdf11.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:10:42,550 - INFO - Processing time for pdf11.pdf: 37.55 seconds
+2024-10-15 20:10:44,941 - INFO - Processing pdf14.pdf (long document with 4014 words)
+2024-10-15 20:10:45,247 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:10:45,247 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:10:46,427 - INFO - Processing pdf13.pdf (long document with 4952 words)
+2024-10-15 20:10:46,430 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:10:46,430 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:11:20,727 - ERROR - Error processing pdf13.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:11:20,727 - INFO - Processing time for pdf13.pdf: 38.17 seconds
+2024-10-15 20:11:21,230 - ERROR - Error processing pdf14.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:11:21,230 - INFO - Processing time for pdf14.pdf: 38.67 seconds
+2024-10-15 20:11:25,823 - INFO - Processing pdf15.pdf (long document with 5105 words)
+2024-10-15 20:11:26,314 - INFO - Processing pdf16.pdf (long document with 15081 words)
+2024-10-15 20:11:26,315 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:11:26,315 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:11:26,320 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:11:26,320 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:11:59,938 - ERROR - Error processing pdf16.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:11:59,938 - INFO - Processing time for pdf16.pdf: 38.70 seconds
+2024-10-15 20:12:01,461 - ERROR - Error processing pdf15.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:12:01,461 - INFO - Processing time for pdf15.pdf: 40.23 seconds
+2024-10-15 20:12:04,519 - INFO - Processing pdf18.pdf (long document with 4280 words)
+2024-10-15 20:12:05,019 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:12:05,033 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:12:26,155 - INFO - Processing pdf2.pdf (long document with 51265 words)
+2024-10-15 20:12:26,161 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:12:26,161 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:12:56,706 - ERROR - Error processing pdf18.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:12:56,707 - INFO - Processing time for pdf18.pdf: 55.24 seconds
+2024-10-15 20:13:00,787 - ERROR - Error processing pdf2.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:13:00,791 - INFO - Processing time for pdf2.pdf: 59.33 seconds
+2024-10-15 20:13:21,914 - INFO - Processing pdf4.pdf (long document with 63896 words)
+2024-10-15 20:13:22,385 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:13:22,385 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:13:36,931 - INFO - Processing pdf3.pdf (long document with 138757 words)
+2024-10-15 20:13:36,934 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:13:36,934 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:14:07,793 - ERROR - Error processing pdf4.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:14:07,794 - INFO - Processing time for pdf4.pdf: 67.00 seconds
+2024-10-15 20:14:11,332 - ERROR - Error processing pdf3.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:14:11,332 - INFO - Processing time for pdf3.pdf: 70.54 seconds
+2024-10-15 20:14:11,602 - INFO - Processing pdf5.pdf (short document with 235 words)
+2024-10-15 20:14:11,961 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:14:11,961 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:14:12,386 - INFO - Processing pdf6.pdf (long document with 4825 words)
+2024-10-15 20:14:12,389 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:14:12,389 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:14:46,314 - ERROR - Error processing pdf5.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:14:46,315 - INFO - Processing time for pdf5.pdf: 34.98 seconds
+2024-10-15 20:14:46,829 - ERROR - Error processing pdf6.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:14:46,829 - INFO - Processing time for pdf6.pdf: 35.50 seconds
+2024-10-15 20:14:48,674 - INFO - Processing pdf8.pdf (long document with 3049 words)
+2024-10-15 20:14:49,184 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:14:49,200 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:14:49,420 - INFO - Processing pdf7.pdf (long document with 4746 words)
+2024-10-15 20:14:49,422 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:14:49,423 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:15:24,355 - ERROR - Error processing pdf7.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:15:24,355 - INFO - Processing time for pdf7.pdf: 37.52 seconds
+2024-10-15 20:15:25,378 - ERROR - Error processing pdf8.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:15:25,379 - INFO - Processing time for pdf8.pdf: 38.55 seconds
+2024-10-15 20:15:26,832 - INFO - Processing pdf9.pdf (long document with 3189 words)
+2024-10-15 20:15:26,835 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:15:26,835 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:16:02,886 - ERROR - Error processing pdf9.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e7e998fc92974d995c4e1, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:16:02,886 - INFO - Processing time for pdf9.pdf: 37.50 seconds
+2024-10-15 20:39:36,593 - WARNING - From C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-15 20:39:41,308 - INFO - Found 17 PDF files in C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs.
+2024-10-15 20:39:41,308 - INFO - Processing batch 1: ['pdf1.pdf', 'pdf10.pdf']
+2024-10-15 20:39:46,824 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:39:46,826 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:39:47,325 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:39:47,325 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:39:54,054 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf10.pdf_summary.txt
+2024-10-15 20:39:54,054 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf10.pdf_keywords.txt
+2024-10-15 20:39:54,081 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf1.pdf_summary.txt
+2024-10-15 20:39:54,082 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf1.pdf_keywords.txt
+2024-10-15 20:40:24,142 - ERROR - Error processing pdf10.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:40:24,143 - ERROR - Error processing pdf1.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:40:24,143 - INFO - Processing time for pdf10.pdf: 42.82 seconds
+2024-10-15 20:40:24,143 - INFO - Processing time for pdf1.pdf: 42.83 seconds
+2024-10-15 20:40:24,148 - INFO - Processing batch 2: ['pdf11.pdf', 'pdf12.pdf']
+2024-10-15 20:40:24,236 - ERROR - Error processing pdf12.pdf: Failed to open file 'C:\\Users\\91730\\pythonProject\\pdfsummarizer\\pythonProject1\\src\\downloaded_pdfs\\pdf12.pdf'.
+2024-10-15 20:40:24,256 - INFO - Processing time for pdf12.pdf: 0.08 seconds
+2024-10-15 20:40:28,541 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:40:28,541 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:40:34,957 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf11.pdf_summary.txt
+2024-10-15 20:40:34,957 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf11.pdf_keywords.txt
+2024-10-15 20:41:05,136 - ERROR - Error processing pdf11.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:41:05,136 - INFO - Processing time for pdf11.pdf: 40.98 seconds
+2024-10-15 20:41:05,138 - INFO - Processing batch 3: ['pdf13.pdf', 'pdf14.pdf']
+2024-10-15 20:41:17,083 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:41:17,083 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:41:17,160 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:41:17,161 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:41:23,037 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf14.pdf_summary.txt
+2024-10-15 20:41:23,037 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf14.pdf_keywords.txt
+2024-10-15 20:41:23,202 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf13.pdf_summary.txt
+2024-10-15 20:41:23,202 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf13.pdf_keywords.txt
+2024-10-15 20:41:53,237 - ERROR - Error processing pdf14.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:41:53,238 - ERROR - Error processing pdf13.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:41:53,238 - INFO - Processing time for pdf14.pdf: 48.08 seconds
+2024-10-15 20:41:53,239 - INFO - Processing time for pdf13.pdf: 48.10 seconds
+2024-10-15 20:41:53,242 - INFO - Processing batch 4: ['pdf15.pdf', 'pdf16.pdf']
+2024-10-15 20:42:01,727 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:42:01,728 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:42:04,779 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:42:04,779 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:42:08,408 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf16.pdf_summary.txt
+2024-10-15 20:42:08,408 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf16.pdf_keywords.txt
+2024-10-15 20:42:10,647 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf15.pdf_summary.txt
+2024-10-15 20:42:10,649 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf15.pdf_keywords.txt
+2024-10-15 20:42:38,667 - ERROR - Error processing pdf16.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:42:38,669 - INFO - Processing time for pdf16.pdf: 45.38 seconds
+2024-10-15 20:42:40,698 - ERROR - Error processing pdf15.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:42:40,699 - INFO - Processing time for pdf15.pdf: 47.45 seconds
+2024-10-15 20:42:40,700 - INFO - Processing batch 5: ['pdf18.pdf', 'pdf2.pdf']
+2024-10-15 20:42:47,950 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:42:47,951 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:42:49,337 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:42:49,337 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:42:52,272 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf2.pdf_summary.txt
+2024-10-15 20:42:52,272 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf2.pdf_keywords.txt
+2024-10-15 20:42:54,148 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf18.pdf_summary.txt
+2024-10-15 20:42:54,148 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf18.pdf_keywords.txt
+2024-10-15 20:43:22,712 - ERROR - Error processing pdf2.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:43:22,712 - INFO - Processing time for pdf2.pdf: 42.00 seconds
+2024-10-15 20:43:24,222 - ERROR - Error processing pdf18.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:43:24,222 - INFO - Processing time for pdf18.pdf: 43.52 seconds
+2024-10-15 20:43:24,223 - INFO - Processing batch 6: ['pdf3.pdf', 'pdf4.pdf']
+2024-10-15 20:43:32,565 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:43:32,565 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:43:34,551 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:43:34,552 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:43:38,392 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf4.pdf_summary.txt
+2024-10-15 20:43:38,392 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf4.pdf_keywords.txt
+2024-10-15 20:43:39,381 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf3.pdf_summary.txt
+2024-10-15 20:43:39,381 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf3.pdf_keywords.txt
+2024-10-15 20:44:08,849 - ERROR - Error processing pdf4.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:44:08,850 - INFO - Processing time for pdf4.pdf: 44.59 seconds
+2024-10-15 20:44:09,881 - ERROR - Error processing pdf3.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:44:09,884 - INFO - Processing time for pdf3.pdf: 45.66 seconds
+2024-10-15 20:44:09,884 - INFO - Processing batch 7: ['pdf5.pdf', 'pdf6.pdf']
+2024-10-15 20:44:12,405 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:44:12,405 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:44:14,542 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:44:14,542 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:44:16,285 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf5.pdf_summary.txt
+2024-10-15 20:44:16,286 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf5.pdf_keywords.txt
+2024-10-15 20:44:25,196 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf6.pdf_summary.txt
+2024-10-15 20:44:25,196 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf6.pdf_keywords.txt
+2024-10-15 20:44:46,377 - ERROR - Error processing pdf5.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:44:46,378 - INFO - Processing time for pdf5.pdf: 36.49 seconds
+2024-10-15 20:44:55,493 - ERROR - Error processing pdf6.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:44:55,495 - INFO - Processing time for pdf6.pdf: 45.57 seconds
+2024-10-15 20:44:55,495 - INFO - Processing batch 8: ['pdf7.pdf', 'pdf8.pdf']
+2024-10-15 20:44:59,472 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:44:59,472 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:45:00,502 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:45:00,502 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:45:04,364 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf7.pdf_summary.txt
+2024-10-15 20:45:04,364 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf7.pdf_keywords.txt
+2024-10-15 20:45:06,435 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf8.pdf_summary.txt
+2024-10-15 20:45:06,435 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf8.pdf_keywords.txt
+2024-10-15 20:45:34,493 - ERROR - Error processing pdf7.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:45:34,494 - INFO - Processing time for pdf7.pdf: 39.00 seconds
+2024-10-15 20:45:36,535 - ERROR - Error processing pdf8.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:45:36,535 - INFO - Processing time for pdf8.pdf: 41.02 seconds
+2024-10-15 20:45:36,536 - INFO - Processing batch 9: ['pdf9.pdf']
+2024-10-15 20:45:41,295 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:45:41,295 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:45:47,107 - INFO - Summary saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf9.pdf_summary.txt
+2024-10-15 20:45:47,107 - INFO - Keywords saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf9.pdf_keywords.txt
+2024-10-15 20:46:17,402 - ERROR - Error processing pdf9.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e85b192dd210af026dfab, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:46:17,403 - INFO - Processing time for pdf9.pdf: 40.86 seconds
+2024-10-15 20:52:09,527 - WARNING - From C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-15 20:52:14,034 - INFO - Found 17 PDF files in C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs.
+2024-10-15 20:52:14,035 - INFO - Processing batch 1: ['pdf1.pdf', 'pdf10.pdf']
+2024-10-15 20:52:14,309 - ERROR - Error processing pdf1.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:14,310 - INFO - Processing time for pdf1.pdf: 0.27 seconds
+2024-10-15 20:52:14,528 - ERROR - Error processing pdf10.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:14,528 - INFO - Processing time for pdf10.pdf: 0.48 seconds
+2024-10-15 20:52:14,528 - INFO - Processing batch 2: ['pdf11.pdf', 'pdf12.pdf']
+2024-10-15 20:52:14,588 - ERROR - Error processing pdf11.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:14,591 - ERROR - Error processing pdf12.pdf: Failed to open file 'C:\\Users\\91730\\pythonProject\\pdfsummarizer\\pythonProject1\\src\\downloaded_pdfs\\pdf12.pdf'.
+2024-10-15 20:52:14,591 - INFO - Processing time for pdf11.pdf: 0.06 seconds
+2024-10-15 20:52:14,592 - INFO - Processing time for pdf12.pdf: 0.05 seconds
+2024-10-15 20:52:14,592 - INFO - Processing batch 3: ['pdf13.pdf', 'pdf14.pdf']
+2024-10-15 20:52:14,685 - ERROR - Error processing pdf13.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:14,722 - INFO - Processing time for pdf13.pdf: 0.13 seconds
+2024-10-15 20:52:14,746 - ERROR - Error processing pdf14.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:14,746 - INFO - Processing time for pdf14.pdf: 0.14 seconds
+2024-10-15 20:52:14,746 - INFO - Processing batch 4: ['pdf15.pdf', 'pdf16.pdf']
+2024-10-15 20:52:15,065 - ERROR - Error processing pdf15.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:15,065 - INFO - Processing time for pdf15.pdf: 0.32 seconds
+2024-10-15 20:52:15,105 - ERROR - Error processing pdf16.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:15,105 - INFO - Processing time for pdf16.pdf: 0.34 seconds
+2024-10-15 20:52:15,105 - INFO - Processing batch 5: ['pdf18.pdf', 'pdf2.pdf']
+2024-10-15 20:52:15,160 - ERROR - Error processing pdf18.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:15,160 - INFO - Processing time for pdf18.pdf: 0.05 seconds
+2024-10-15 20:52:15,722 - ERROR - Error processing pdf2.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:15,722 - INFO - Processing time for pdf2.pdf: 0.60 seconds
+2024-10-15 20:52:15,722 - INFO - Processing batch 6: ['pdf3.pdf', 'pdf4.pdf']
+2024-10-15 20:52:16,368 - ERROR - Error processing pdf4.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:16,375 - INFO - Processing time for pdf4.pdf: 0.64 seconds
+2024-10-15 20:52:16,864 - ERROR - Error processing pdf3.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:16,864 - INFO - Processing time for pdf3.pdf: 1.14 seconds
+2024-10-15 20:52:16,865 - INFO - Processing batch 7: ['pdf5.pdf', 'pdf6.pdf']
+2024-10-15 20:52:16,888 - ERROR - Error processing pdf5.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:16,888 - INFO - Processing time for pdf5.pdf: 0.02 seconds
+2024-10-15 20:52:16,959 - ERROR - Error processing pdf6.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:16,959 - INFO - Processing time for pdf6.pdf: 0.07 seconds
+2024-10-15 20:52:16,960 - INFO - Processing batch 8: ['pdf7.pdf', 'pdf8.pdf']
+2024-10-15 20:52:17,052 - ERROR - Error processing pdf7.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:17,056 - ERROR - Error processing pdf8.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:17,056 - INFO - Processing time for pdf7.pdf: 0.10 seconds
+2024-10-15 20:52:17,056 - INFO - Processing time for pdf8.pdf: 0.07 seconds
+2024-10-15 20:52:17,056 - INFO - Processing batch 9: ['pdf9.pdf']
+2024-10-15 20:52:17,096 - ERROR - Error processing pdf9.pdf: summarize_text() got an unexpected keyword argument 'length'
+2024-10-15 20:52:17,096 - INFO - Processing time for pdf9.pdf: 0.04 seconds
+2024-10-15 20:54:34,181 - WARNING - From C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-15 20:54:36,767 - INFO - Found 17 PDF files in C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs.
+2024-10-15 20:54:36,768 - INFO - Processing batch 1: ['pdf1.pdf', 'pdf10.pdf']
+2024-10-15 20:54:49,614 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:54:49,616 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:54:50,600 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:54:50,601 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:54:55,125 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf10.pdf_summary.txt
+2024-10-15 20:54:56,531 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf1.pdf_summary.txt
+2024-10-15 20:55:25,246 - ERROR - Error processing pdf10.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8932756f4348ac2d38d5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:55:25,246 - INFO - Processing time for pdf10.pdf: 48.45 seconds
+2024-10-15 20:55:26,773 - ERROR - Error processing pdf1.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8932756f4348ac2d38d5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:55:26,773 - INFO - Processing time for pdf1.pdf: 50.00 seconds
+2024-10-15 20:55:26,775 - INFO - Processing batch 2: ['pdf11.pdf', 'pdf12.pdf']
+2024-10-15 20:56:20,989 - WARNING - From C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-15 20:56:25,002 - INFO - Found 17 PDF files in C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs.
+2024-10-15 20:56:25,003 - INFO - Processing batch 1: ['pdf1.pdf', 'pdf10.pdf']
+2024-10-15 20:56:37,441 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:56:37,443 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:56:38,472 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:56:38,472 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:56:43,132 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf1.pdf_summary.txt
+2024-10-15 20:56:43,135 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf10.pdf_summary.txt
+2024-10-15 20:57:13,172 - ERROR - Error processing pdf10.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:57:13,173 - ERROR - Error processing pdf1.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:57:13,174 - INFO - Processing time for pdf10.pdf: 48.15 seconds
+2024-10-15 20:57:13,174 - INFO - Processing time for pdf1.pdf: 48.17 seconds
+2024-10-15 20:57:13,176 - INFO - Processing batch 2: ['pdf11.pdf', 'pdf12.pdf']
+2024-10-15 20:57:13,287 - ERROR - Error processing pdf12.pdf: Failed to open file 'C:\\Users\\91730\\pythonProject\\pdfsummarizer\\pythonProject1\\src\\downloaded_pdfs\\pdf12.pdf'.
+2024-10-15 20:57:13,288 - INFO - Processing time for pdf12.pdf: 0.08 seconds
+2024-10-15 20:57:24,426 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:57:24,426 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:57:30,287 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf11.pdf_summary.txt
+2024-10-15 20:58:00,727 - ERROR - Error processing pdf11.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:58:00,727 - INFO - Processing time for pdf11.pdf: 47.55 seconds
+2024-10-15 20:58:00,727 - INFO - Processing batch 3: ['pdf13.pdf', 'pdf14.pdf']
+2024-10-15 20:58:29,490 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:58:29,490 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:58:29,710 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:58:29,710 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:58:33,689 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf14.pdf_summary.txt
+2024-10-15 20:58:34,438 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf13.pdf_summary.txt
+2024-10-15 20:59:03,851 - ERROR - Error processing pdf14.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:59:03,851 - INFO - Processing time for pdf14.pdf: 63.11 seconds
+2024-10-15 20:59:04,867 - ERROR - Error processing pdf13.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:59:04,867 - INFO - Processing time for pdf13.pdf: 64.14 seconds
+2024-10-15 20:59:04,867 - INFO - Processing batch 4: ['pdf15.pdf', 'pdf16.pdf']
+2024-10-15 20:59:23,439 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:59:23,439 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:59:27,098 - INFO - Use pytorch device_name: cpu
+2024-10-15 20:59:27,099 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 20:59:27,272 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf16.pdf_summary.txt
+2024-10-15 20:59:31,083 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf15.pdf_summary.txt
+2024-10-15 20:59:57,446 - ERROR - Error processing pdf16.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 20:59:57,446 - INFO - Processing time for pdf16.pdf: 52.56 seconds
+2024-10-15 21:00:01,502 - ERROR - Error processing pdf15.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:00:01,503 - INFO - Processing time for pdf15.pdf: 56.64 seconds
+2024-10-15 21:00:01,504 - INFO - Processing batch 5: ['pdf18.pdf', 'pdf2.pdf']
+2024-10-15 21:00:17,276 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:00:17,277 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:00:19,669 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:00:19,669 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:00:21,410 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf2.pdf_summary.txt
+2024-10-15 21:00:23,289 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf18.pdf_summary.txt
+2024-10-15 21:00:51,795 - ERROR - Error processing pdf2.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:00:51,796 - INFO - Processing time for pdf2.pdf: 50.27 seconds
+2024-10-15 21:00:53,316 - ERROR - Error processing pdf18.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:00:53,317 - INFO - Processing time for pdf18.pdf: 51.81 seconds
+2024-10-15 21:00:53,317 - INFO - Processing batch 6: ['pdf3.pdf', 'pdf4.pdf']
+2024-10-15 21:01:06,197 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:01:06,197 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:01:08,900 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:01:08,900 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:01:11,568 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf4.pdf_summary.txt
+2024-10-15 21:01:13,329 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf3.pdf_summary.txt
+2024-10-15 21:01:41,605 - ERROR - Error processing pdf4.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:01:41,606 - INFO - Processing time for pdf4.pdf: 48.26 seconds
+2024-10-15 21:01:43,632 - ERROR - Error processing pdf3.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:01:43,633 - INFO - Processing time for pdf3.pdf: 50.31 seconds
+2024-10-15 21:01:43,633 - INFO - Processing batch 7: ['pdf5.pdf', 'pdf6.pdf']
+2024-10-15 21:01:50,752 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:01:50,752 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:01:55,813 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:01:55,813 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:01:57,882 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf5.pdf_summary.txt
+2024-10-15 21:02:07,404 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf6.pdf_summary.txt
+2024-10-15 21:02:28,153 - ERROR - Error processing pdf5.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:02:28,153 - INFO - Processing time for pdf5.pdf: 44.52 seconds
+2024-10-15 21:02:37,803 - ERROR - Error processing pdf6.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:02:37,804 - INFO - Processing time for pdf6.pdf: 54.15 seconds
+2024-10-15 21:02:37,804 - INFO - Processing batch 8: ['pdf7.pdf', 'pdf8.pdf']
+2024-10-15 21:02:56,104 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:02:56,104 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:02:59,457 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:02:59,457 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:03:01,637 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf7.pdf_summary.txt
+2024-10-15 21:03:03,434 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf8.pdf_summary.txt
+2024-10-15 21:03:31,841 - ERROR - Error processing pdf7.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:03:31,842 - INFO - Processing time for pdf7.pdf: 54.04 seconds
+2024-10-15 21:03:33,884 - ERROR - Error processing pdf8.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:03:33,884 - INFO - Processing time for pdf8.pdf: 56.06 seconds
+2024-10-15 21:03:33,885 - INFO - Processing batch 9: ['pdf9.pdf']
+2024-10-15 21:03:42,055 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:03:42,055 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:03:48,272 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf9.pdf_summary.txt
+2024-10-15 21:04:18,324 - ERROR - Error processing pdf9.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e899d2c127c2926e5682e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:04:18,324 - INFO - Processing time for pdf9.pdf: 44.44 seconds
+2024-10-15 21:10:51,107 - WARNING - From C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-15 21:10:54,172 - INFO - Found 17 PDF files in C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs.
+2024-10-15 21:10:54,173 - INFO - Processing batch 1: ['pdf1.pdf', 'pdf10.pdf']
+2024-10-15 21:11:07,049 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:11:07,049 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:11:08,179 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:11:08,179 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:11:13,796 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf1.pdf_summary.txt
+2024-10-15 21:11:13,812 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf10.pdf_summary.txt
+2024-10-15 21:11:44,302 - ERROR - Error processing pdf1.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d034f98719baf85c386, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:11:44,303 - ERROR - Error processing pdf10.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d034f98719baf85c386, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:11:44,303 - INFO - Processing time for pdf1.pdf: 50.13 seconds
+2024-10-15 21:11:44,303 - INFO - Processing time for pdf10.pdf: 50.11 seconds
+2024-10-15 21:11:44,306 - INFO - Processing batch 2: ['pdf11.pdf', 'pdf12.pdf']
+2024-10-15 21:13:26,351 - WARNING - From C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-15 21:13:30,122 - INFO - Found 17 PDF files in C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs.
+2024-10-15 21:13:30,122 - INFO - Processing batch 1: ['pdf1.pdf', 'pdf10.pdf']
+2024-10-15 21:13:41,774 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:13:41,774 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:13:42,868 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:13:42,868 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:13:47,266 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf10.pdf_summary.txt
+2024-10-15 21:13:47,435 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf1.pdf_summary.txt
+2024-10-15 21:14:17,438 - ERROR - Error processing pdf10.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d9e915a84892c62ef6e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:14:17,438 - INFO - Processing time for pdf10.pdf: 47.30 seconds
+2024-10-15 21:14:17,952 - ERROR - Error processing pdf1.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d9e915a84892c62ef6e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:14:17,952 - INFO - Processing time for pdf1.pdf: 47.83 seconds
+2024-10-15 21:14:17,952 - INFO - Processing batch 2: ['pdf11.pdf', 'pdf12.pdf']
+2024-10-15 21:14:18,023 - ERROR - Error processing pdf12.pdf: Failed to open file 'C:\\Users\\91730\\pythonProject\\pdfsummarizer\\pythonProject1\\src\\downloaded_pdfs\\pdf12.pdf'.
+2024-10-15 21:14:18,024 - INFO - Processing time for pdf12.pdf: 0.06 seconds
+2024-10-15 21:14:27,631 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:14:27,631 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:14:33,387 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf11.pdf_summary.txt
+2024-10-15 21:15:03,465 - ERROR - Error processing pdf11.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d9e915a84892c62ef6e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:15:03,465 - INFO - Processing time for pdf11.pdf: 45.51 seconds
+2024-10-15 21:15:03,467 - INFO - Processing batch 3: ['pdf13.pdf', 'pdf14.pdf']
+2024-10-15 21:15:21,485 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:15:21,485 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:15:21,573 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:15:21,573 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:15:26,166 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf13.pdf_summary.txt
+2024-10-15 21:15:26,970 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf14.pdf_summary.txt
+2024-10-15 21:15:56,396 - ERROR - Error processing pdf13.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d9e915a84892c62ef6e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:15:56,396 - INFO - Processing time for pdf13.pdf: 52.93 seconds
+2024-10-15 21:15:57,441 - ERROR - Error processing pdf14.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d9e915a84892c62ef6e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:15:57,441 - INFO - Processing time for pdf14.pdf: 53.97 seconds
+2024-10-15 21:15:57,442 - INFO - Processing batch 4: ['pdf15.pdf', 'pdf16.pdf']
+2024-10-15 21:16:12,016 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:16:12,016 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:16:15,496 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:16:15,496 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:16:17,246 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf16.pdf_summary.txt
+2024-10-15 21:16:20,940 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf15.pdf_summary.txt
+2024-10-15 21:16:47,483 - ERROR - Error processing pdf16.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d9e915a84892c62ef6e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:16:47,484 - INFO - Processing time for pdf16.pdf: 50.01 seconds
+2024-10-15 21:16:51,037 - ERROR - Error processing pdf15.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d9e915a84892c62ef6e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:16:51,038 - INFO - Processing time for pdf15.pdf: 53.59 seconds
+2024-10-15 21:16:51,038 - INFO - Processing batch 5: ['pdf18.pdf', 'pdf2.pdf']
+2024-10-15 21:17:08,699 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:17:08,699 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:17:11,497 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:17:11,497 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:17:12,683 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf2.pdf_summary.txt
+2024-10-15 21:17:15,480 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf18.pdf_summary.txt
+2024-10-15 21:17:43,194 - ERROR - Error processing pdf2.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d9e915a84892c62ef6e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:17:43,194 - INFO - Processing time for pdf2.pdf: 52.13 seconds
+2024-10-15 21:17:45,718 - ERROR - Error processing pdf18.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d9e915a84892c62ef6e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:17:45,718 - INFO - Processing time for pdf18.pdf: 54.68 seconds
+2024-10-15 21:17:45,719 - INFO - Processing batch 6: ['pdf3.pdf', 'pdf4.pdf']
+2024-10-15 21:18:04,378 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:18:04,378 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:18:08,823 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf4.pdf_summary.txt
+2024-10-15 21:18:08,969 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:18:08,970 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:18:15,011 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf3.pdf_summary.txt
+2024-10-15 21:18:39,226 - ERROR - Error processing pdf4.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d9e915a84892c62ef6e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:18:39,226 - INFO - Processing time for pdf4.pdf: 53.49 seconds
+2024-10-15 21:18:45,298 - ERROR - Error processing pdf3.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d9e915a84892c62ef6e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:18:45,299 - INFO - Processing time for pdf3.pdf: 59.58 seconds
+2024-10-15 21:18:45,299 - INFO - Processing batch 7: ['pdf5.pdf', 'pdf6.pdf']
+2024-10-15 21:18:54,388 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:18:54,388 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:18:59,975 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:18:59,975 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:19:00,079 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf5.pdf_summary.txt
+2024-10-15 21:19:04,805 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf6.pdf_summary.txt
+2024-10-15 21:19:30,301 - ERROR - Error processing pdf5.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d9e915a84892c62ef6e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:19:30,302 - INFO - Processing time for pdf5.pdf: 45.00 seconds
+2024-10-15 21:19:34,865 - ERROR - Error processing pdf6.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8d9e915a84892c62ef6e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:19:34,865 - INFO - Processing time for pdf6.pdf: 49.51 seconds
+2024-10-15 21:19:56,531 - WARNING - From C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\.venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2024-10-15 21:19:59,544 - INFO - Found 17 PDF files in C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs.
+2024-10-15 21:19:59,544 - INFO - Processing batch 1: ['pdf1.pdf', 'pdf10.pdf']
+2024-10-15 21:19:59,782 - INFO - Text extraction took: 0.24 seconds
+2024-10-15 21:20:00,030 - INFO - Text extraction took: 0.47 seconds
+2024-10-15 21:20:13,886 - INFO - Summary generation took: 13.86 seconds
+2024-10-15 21:20:13,891 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:20:13,891 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:20:15,051 - INFO - Summary generation took: 15.25 seconds
+2024-10-15 21:20:15,052 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:20:15,052 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:20:18,256 - INFO - Keyword extraction took: 4.37 seconds
+2024-10-15 21:20:18,257 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf10.pdf_summary.txt
+2024-10-15 21:20:20,761 - INFO - Keyword extraction took: 5.71 seconds
+2024-10-15 21:20:20,762 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf1.pdf_summary.txt
+2024-10-15 21:20:48,378 - ERROR - Error processing pdf10.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8f254c99ab5ae69ba7c6, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:20:48,379 - INFO - Overall processing time for pdf10.pdf: 48.82 seconds
+2024-10-15 21:20:50,899 - ERROR - Error processing pdf1.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8f254c99ab5ae69ba7c6, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:20:50,899 - INFO - Overall processing time for pdf1.pdf: 51.35 seconds
+2024-10-15 21:20:50,900 - INFO - Processing batch 2: ['pdf11.pdf', 'pdf12.pdf']
+2024-10-15 21:20:50,973 - ERROR - Error processing pdf12.pdf: Failed to open file 'C:\\Users\\91730\\pythonProject\\pdfsummarizer\\pythonProject1\\src\\downloaded_pdfs\\pdf12.pdf'.
+2024-10-15 21:20:50,995 - INFO - Overall processing time for pdf12.pdf: 0.07 seconds
+2024-10-15 21:20:51,069 - INFO - Text extraction took: 0.17 seconds
+2024-10-15 21:21:07,794 - INFO - Summary generation took: 16.72 seconds
+2024-10-15 21:21:07,797 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:21:07,799 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:21:11,698 - INFO - Keyword extraction took: 3.90 seconds
+2024-10-15 21:21:11,699 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf11.pdf_summary.txt
+2024-10-15 21:21:41,841 - ERROR - Error processing pdf11.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8f254c99ab5ae69ba7c6, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:21:41,842 - INFO - Overall processing time for pdf11.pdf: 50.94 seconds
+2024-10-15 21:21:41,842 - INFO - Processing batch 3: ['pdf13.pdf', 'pdf14.pdf']
+2024-10-15 21:21:42,011 - INFO - Text extraction took: 0.15 seconds
+2024-10-15 21:21:42,020 - INFO - Text extraction took: 0.16 seconds
+2024-10-15 21:22:06,763 - INFO - Summary generation took: 24.74 seconds
+2024-10-15 21:22:06,790 - INFO - Summary generation took: 24.77 seconds
+2024-10-15 21:22:06,799 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:22:06,799 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:22:06,815 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:22:06,815 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:22:11,446 - INFO - Keyword extraction took: 4.66 seconds
+2024-10-15 21:22:11,448 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf14.pdf_summary.txt
+2024-10-15 21:22:11,698 - INFO - Keyword extraction took: 4.93 seconds
+2024-10-15 21:22:11,700 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf13.pdf_summary.txt
+2024-10-15 21:22:41,926 - ERROR - Error processing pdf13.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8f254c99ab5ae69ba7c6, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:22:41,926 - ERROR - Error processing pdf14.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8f254c99ab5ae69ba7c6, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:22:41,926 - INFO - Overall processing time for pdf13.pdf: 60.08 seconds
+2024-10-15 21:22:41,926 - INFO - Overall processing time for pdf14.pdf: 60.06 seconds
+2024-10-15 21:22:41,927 - INFO - Processing batch 4: ['pdf15.pdf', 'pdf16.pdf']
+2024-10-15 21:22:42,088 - INFO - Text extraction took: 0.16 seconds
+2024-10-15 21:22:42,173 - INFO - Text extraction took: 0.23 seconds
+2024-10-15 21:23:02,874 - INFO - Summary generation took: 20.70 seconds
+2024-10-15 21:23:02,882 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:23:02,882 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:23:08,031 - INFO - Summary generation took: 25.94 seconds
+2024-10-15 21:23:08,035 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:23:08,035 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:23:08,206 - INFO - Keyword extraction took: 5.33 seconds
+2024-10-15 21:23:08,206 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf16.pdf_summary.txt
+2024-10-15 21:23:13,843 - INFO - Keyword extraction took: 5.81 seconds
+2024-10-15 21:23:13,845 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf15.pdf_summary.txt
+2024-10-15 21:23:38,518 - ERROR - Error processing pdf16.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8f254c99ab5ae69ba7c6, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:23:38,519 - INFO - Overall processing time for pdf16.pdf: 56.58 seconds
+2024-10-15 21:23:44,127 - ERROR - Error processing pdf15.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8f254c99ab5ae69ba7c6, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:23:44,127 - INFO - Overall processing time for pdf15.pdf: 62.20 seconds
+2024-10-15 21:23:44,127 - INFO - Processing batch 5: ['pdf18.pdf', 'pdf2.pdf']
+2024-10-15 21:23:44,322 - INFO - Text extraction took: 0.16 seconds
+2024-10-15 21:23:45,370 - INFO - Text extraction took: 1.16 seconds
+2024-10-15 21:24:01,011 - INFO - Summary generation took: 15.64 seconds
+2024-10-15 21:24:01,014 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:24:01,014 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:24:02,605 - INFO - Summary generation took: 18.27 seconds
+2024-10-15 21:24:02,607 - INFO - Use pytorch device_name: cpu
+2024-10-15 21:24:02,607 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-15 21:24:06,755 - INFO - Keyword extraction took: 5.74 seconds
+2024-10-15 21:24:06,757 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf2.pdf_summary.txt
+2024-10-15 21:24:08,216 - INFO - Keyword extraction took: 5.61 seconds
+2024-10-15 21:24:08,216 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf18.pdf_summary.txt
+2024-10-15 21:24:36,845 - ERROR - Error processing pdf2.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8f254c99ab5ae69ba7c6, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:24:36,845 - INFO - Overall processing time for pdf2.pdf: 52.63 seconds
+2024-10-15 21:24:38,363 - ERROR - Error processing pdf18.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e8f254c99ab5ae69ba7c6, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:24:38,363 - INFO - Overall processing time for pdf18.pdf: 54.20 seconds
+2024-10-15 21:25:01,212 - INFO - Found 17 PDF files in C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs.
+2024-10-15 21:25:01,212 - INFO - Processing batch 1: ['pdf1.pdf', 'pdf10.pdf']
+2024-10-15 21:25:01,416 - INFO - Text extraction took: 0.20 seconds
+2024-10-15 21:25:01,640 - INFO - Text extraction took: 0.41 seconds
+2024-10-15 21:25:13,546 - INFO - Summary generation took: 11.90 seconds
+2024-10-15 21:25:14,848 - INFO - Summary generation took: 13.39 seconds
+2024-10-15 21:25:18,983 - INFO - Keyword extraction took: 5.44 seconds
+2024-10-15 21:25:18,983 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf10.pdf_summary.txt
+2024-10-15 21:25:20,465 - INFO - Keyword extraction took: 5.62 seconds
+2024-10-15 21:25:20,466 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf1.pdf_summary.txt
+2024-10-15 21:25:48,989 - ERROR - Error processing pdf10.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:25:48,993 - INFO - Overall processing time for pdf10.pdf: 47.76 seconds
+2024-10-15 21:25:48,993 - INFO - Performance metrics for pdf10.pdf: {'extraction_time': 0.4107673168182373, 'summary_time': 11.904599905014038, 'keyword_extraction_time': 5.435644149780273, 'mongodb_insertion_time': 0, 'memory_usage': 1285013504}
+2024-10-15 21:25:50,499 - ERROR - Error processing pdf1.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:25:50,500 - INFO - Overall processing time for pdf1.pdf: 49.29 seconds
+2024-10-15 21:25:50,500 - INFO - Performance metrics for pdf1.pdf: {'extraction_time': 0.2023007869720459, 'summary_time': 13.387014627456665, 'keyword_extraction_time': 5.617196321487427, 'mongodb_insertion_time': 0, 'memory_usage': 1284907008}
+2024-10-15 21:25:50,500 - INFO - Processing batch 2: ['pdf11.pdf', 'pdf12.pdf']
+2024-10-15 21:25:50,574 - ERROR - Error processing pdf12.pdf: Failed to open file 'C:\\Users\\91730\\pythonProject\\pdfsummarizer\\pythonProject1\\src\\downloaded_pdfs\\pdf12.pdf'.
+2024-10-15 21:25:50,626 - INFO - Overall processing time for pdf12.pdf: 0.10 seconds
+2024-10-15 21:25:50,650 - INFO - Text extraction took: 0.15 seconds
+2024-10-15 21:25:50,650 - INFO - Performance metrics for pdf12.pdf: {'extraction_time': 0, 'summary_time': 0, 'keyword_extraction_time': 0, 'mongodb_insertion_time': 0, 'memory_usage': 1284571136}
+2024-10-15 21:26:00,329 - INFO - Summary generation took: 9.68 seconds
+2024-10-15 21:26:06,364 - INFO - Keyword extraction took: 6.04 seconds
+2024-10-15 21:26:06,365 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf11.pdf_summary.txt
+2024-10-15 21:26:36,575 - ERROR - Error processing pdf11.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:26:36,575 - INFO - Overall processing time for pdf11.pdf: 46.07 seconds
+2024-10-15 21:26:36,575 - INFO - Performance metrics for pdf11.pdf: {'extraction_time': 0.14719557762145996, 'summary_time': 9.679305076599121, 'keyword_extraction_time': 6.03517484664917, 'mongodb_insertion_time': 0, 'memory_usage': 1344983040}
+2024-10-15 21:26:36,576 - INFO - Processing batch 3: ['pdf13.pdf', 'pdf14.pdf']
+2024-10-15 21:26:36,806 - INFO - Text extraction took: 0.23 seconds
+2024-10-15 21:26:36,810 - INFO - Text extraction took: 0.21 seconds
+2024-10-15 21:26:53,337 - INFO - Summary generation took: 16.53 seconds
+2024-10-15 21:26:53,389 - INFO - Summary generation took: 16.58 seconds
+2024-10-15 21:26:57,407 - INFO - Keyword extraction took: 4.02 seconds
+2024-10-15 21:26:57,408 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf14.pdf_summary.txt
+2024-10-15 21:26:57,445 - INFO - Keyword extraction took: 4.11 seconds
+2024-10-15 21:26:57,445 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf13.pdf_summary.txt
+2024-10-15 21:27:27,788 - ERROR - Error processing pdf14.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:27:27,788 - ERROR - Error processing pdf13.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:27:27,788 - INFO - Overall processing time for pdf14.pdf: 51.19 seconds
+2024-10-15 21:27:27,789 - INFO - Performance metrics for pdf14.pdf: {'extraction_time': 0.21185851097106934, 'summary_time': 16.575941562652588, 'keyword_extraction_time': 4.017754554748535, 'mongodb_insertion_time': 0, 'memory_usage': 1565032448}
+2024-10-15 21:27:27,789 - INFO - Overall processing time for pdf13.pdf: 51.21 seconds
+2024-10-15 21:27:27,789 - INFO - Performance metrics for pdf13.pdf: {'extraction_time': 0.2281501293182373, 'summary_time': 16.526304006576538, 'keyword_extraction_time': 4.107601881027222, 'mongodb_insertion_time': 0, 'memory_usage': 1565032448}
+2024-10-15 21:27:27,789 - INFO - Processing batch 4: ['pdf15.pdf', 'pdf16.pdf']
+2024-10-15 21:27:28,185 - INFO - Text extraction took: 0.25 seconds
+2024-10-15 21:27:28,191 - INFO - Text extraction took: 0.40 seconds
+2024-10-15 21:27:43,948 - INFO - Summary generation took: 15.76 seconds
+2024-10-15 21:27:47,484 - INFO - Summary generation took: 19.29 seconds
+2024-10-15 21:27:49,034 - INFO - Keyword extraction took: 5.09 seconds
+2024-10-15 21:27:49,035 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf16.pdf_summary.txt
+2024-10-15 21:27:51,955 - INFO - Keyword extraction took: 4.47 seconds
+2024-10-15 21:27:51,956 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf15.pdf_summary.txt
+2024-10-15 21:28:19,381 - ERROR - Error processing pdf16.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:28:19,383 - INFO - Overall processing time for pdf16.pdf: 51.44 seconds
+2024-10-15 21:28:19,383 - INFO - Performance metrics for pdf16.pdf: {'extraction_time': 0.2458949089050293, 'summary_time': 15.762455224990845, 'keyword_extraction_time': 5.086177587509155, 'mongodb_insertion_time': 0, 'memory_usage': 1530896384}
+2024-10-15 21:28:22,418 - ERROR - Error processing pdf15.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:28:22,418 - INFO - Overall processing time for pdf15.pdf: 54.63 seconds
+2024-10-15 21:28:22,419 - INFO - Performance metrics for pdf15.pdf: {'extraction_time': 0.39797377586364746, 'summary_time': 19.293257236480713, 'keyword_extraction_time': 4.4712982177734375, 'mongodb_insertion_time': 0, 'memory_usage': 1513459712}
+2024-10-15 21:28:22,419 - INFO - Processing batch 5: ['pdf18.pdf', 'pdf2.pdf']
+2024-10-15 21:28:22,700 - INFO - Text extraction took: 0.28 seconds
+2024-10-15 21:28:23,870 - INFO - Text extraction took: 1.43 seconds
+2024-10-15 21:28:40,459 - INFO - Summary generation took: 16.59 seconds
+2024-10-15 21:28:42,820 - INFO - Summary generation took: 20.10 seconds
+2024-10-15 21:28:44,930 - INFO - Keyword extraction took: 4.47 seconds
+2024-10-15 21:28:44,932 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf2.pdf_summary.txt
+2024-10-15 21:28:46,838 - INFO - Keyword extraction took: 4.02 seconds
+2024-10-15 21:28:46,840 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf18.pdf_summary.txt
+2024-10-15 21:29:14,977 - ERROR - Error processing pdf2.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:29:14,978 - INFO - Overall processing time for pdf2.pdf: 52.54 seconds
+2024-10-15 21:29:14,978 - INFO - Performance metrics for pdf2.pdf: {'extraction_time': 1.434948205947876, 'summary_time': 16.587536334991455, 'keyword_extraction_time': 4.470318078994751, 'mongodb_insertion_time': 0, 'memory_usage': 1318879232}
+2024-10-15 21:29:17,003 - ERROR - Error processing pdf18.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:29:17,003 - INFO - Overall processing time for pdf18.pdf: 54.58 seconds
+2024-10-15 21:29:17,003 - INFO - Performance metrics for pdf18.pdf: {'extraction_time': 0.2788412570953369, 'summary_time': 20.09913206100464, 'keyword_extraction_time': 4.018471717834473, 'mongodb_insertion_time': 0, 'memory_usage': 1318748160}
+2024-10-15 21:29:17,004 - INFO - Processing batch 6: ['pdf3.pdf', 'pdf4.pdf']
+2024-10-15 21:29:18,229 - INFO - Text extraction took: 1.21 seconds
+2024-10-15 21:29:19,398 - INFO - Text extraction took: 2.39 seconds
+2024-10-15 21:29:36,989 - INFO - Summary generation took: 18.72 seconds
+2024-10-15 21:29:41,279 - INFO - Keyword extraction took: 4.29 seconds
+2024-10-15 21:29:41,283 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf4.pdf_summary.txt
+2024-10-15 21:29:41,400 - INFO - Summary generation took: 22.00 seconds
+2024-10-15 21:29:46,725 - INFO - Keyword extraction took: 5.32 seconds
+2024-10-15 21:29:46,726 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf3.pdf_summary.txt
+2024-10-15 21:30:11,307 - ERROR - Error processing pdf4.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:30:11,309 - INFO - Overall processing time for pdf4.pdf: 54.29 seconds
+2024-10-15 21:30:11,310 - INFO - Performance metrics for pdf4.pdf: {'extraction_time': 1.2108392715454102, 'summary_time': 18.71841859817505, 'keyword_extraction_time': 4.289399147033691, 'mongodb_insertion_time': 0, 'memory_usage': 1419550720}
+2024-10-15 21:30:16,901 - ERROR - Error processing pdf3.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:30:16,902 - INFO - Overall processing time for pdf3.pdf: 59.90 seconds
+2024-10-15 21:30:16,902 - INFO - Performance metrics for pdf3.pdf: {'extraction_time': 2.3914825916290283, 'summary_time': 22.000892162322998, 'keyword_extraction_time': 5.324617624282837, 'mongodb_insertion_time': 0, 'memory_usage': 1419411456}
+2024-10-15 21:30:16,904 - INFO - Processing batch 7: ['pdf5.pdf', 'pdf6.pdf']
+2024-10-15 21:30:16,959 - INFO - Text extraction took: 0.05 seconds
+2024-10-15 21:30:17,155 - INFO - Text extraction took: 0.20 seconds
+2024-10-15 21:30:27,675 - INFO - Summary generation took: 10.71 seconds
+2024-10-15 21:30:32,997 - INFO - Keyword extraction took: 5.32 seconds
+2024-10-15 21:30:32,998 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf5.pdf_summary.txt
+2024-10-15 21:30:33,334 - INFO - Summary generation took: 16.18 seconds
+2024-10-15 21:30:37,990 - INFO - Keyword extraction took: 4.66 seconds
+2024-10-15 21:30:37,991 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf6.pdf_summary.txt
+2024-10-15 21:31:03,368 - ERROR - Error processing pdf5.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:31:03,371 - INFO - Overall processing time for pdf5.pdf: 46.46 seconds
+2024-10-15 21:31:03,371 - INFO - Performance metrics for pdf5.pdf: {'extraction_time': 0.05117940902709961, 'summary_time': 10.714786767959595, 'keyword_extraction_time': 5.320574760437012, 'mongodb_insertion_time': 0, 'memory_usage': 1286918144}
+2024-10-15 21:31:08,433 - ERROR - Error processing pdf6.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:31:08,434 - INFO - Overall processing time for pdf6.pdf: 51.48 seconds
+2024-10-15 21:31:08,434 - INFO - Performance metrics for pdf6.pdf: {'extraction_time': 0.19739818572998047, 'summary_time': 16.17936944961548, 'keyword_extraction_time': 4.655757665634155, 'mongodb_insertion_time': 0, 'memory_usage': 1286774784}
+2024-10-15 21:31:08,435 - INFO - Processing batch 8: ['pdf7.pdf', 'pdf8.pdf']
+2024-10-15 21:31:08,626 - INFO - Text extraction took: 0.19 seconds
+2024-10-15 21:31:08,657 - INFO - Text extraction took: 0.20 seconds
+2024-10-15 21:31:25,313 - INFO - Summary generation took: 16.66 seconds
+2024-10-15 21:31:27,684 - INFO - Summary generation took: 19.02 seconds
+2024-10-15 21:31:30,239 - INFO - Keyword extraction took: 4.92 seconds
+2024-10-15 21:31:30,240 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf7.pdf_summary.txt
+2024-10-15 21:31:31,409 - INFO - Keyword extraction took: 3.72 seconds
+2024-10-15 21:31:31,409 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf8.pdf_summary.txt
+2024-10-15 21:32:00,440 - ERROR - Error processing pdf7.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:32:00,441 - INFO - Overall processing time for pdf7.pdf: 52.00 seconds
+2024-10-15 21:32:00,441 - INFO - Performance metrics for pdf7.pdf: {'extraction_time': 0.18977689743041992, 'summary_time': 16.656779766082764, 'keyword_extraction_time': 4.924765348434448, 'mongodb_insertion_time': 0, 'memory_usage': 1102114816}
+2024-10-15 21:32:01,472 - ERROR - Error processing pdf8.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:32:01,473 - INFO - Overall processing time for pdf8.pdf: 53.02 seconds
+2024-10-15 21:32:01,473 - INFO - Performance metrics for pdf8.pdf: {'extraction_time': 0.20492291450500488, 'summary_time': 19.02224063873291, 'keyword_extraction_time': 3.723721504211426, 'mongodb_insertion_time': 0, 'memory_usage': 1101975552}
+2024-10-15 21:32:01,474 - INFO - Processing batch 9: ['pdf9.pdf']
+2024-10-15 21:32:01,587 - INFO - Text extraction took: 0.11 seconds
+2024-10-15 21:32:13,540 - INFO - Summary generation took: 11.95 seconds
+2024-10-15 21:32:18,035 - INFO - Keyword extraction took: 4.49 seconds
+2024-10-15 21:32:18,037 - INFO - Summaries saved to C:\Users\91730\pythonProject\pdfsummarizer\pythonProject1\src\downloaded_pdfs\pdf9.pdf_summary.txt
+2024-10-15 21:32:48,545 - ERROR - Error processing pdf9.pdf: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 670e905259e3b16e12901693, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2024-10-15 21:32:48,546 - INFO - Overall processing time for pdf9.pdf: 47.07 seconds
+2024-10-15 21:32:48,546 - INFO - Performance metrics for pdf9.pdf: {'extraction_time': 0.11087679862976074, 'summary_time': 11.952566385269165, 'keyword_extraction_time': 4.494956016540527, 'mongodb_insertion_time': 0, 'memory_usage': 1102073856}
